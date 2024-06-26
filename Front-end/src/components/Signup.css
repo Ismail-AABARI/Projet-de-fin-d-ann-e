@@ -1,0 +1,199 @@
+.signup-body-style{
+    background: #f6f9fc;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('/src/assets/srtipe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-size: 230vh ;
+    background-attachment: fixed;
+    background-position: center top ;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-page{
+    width: 540px;
+    margin: 120px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    animation: fade-in 0.8s ease-in-out;
+    box-shadow: 0 10px 20px rgba(10, 10, 13, 0.11), 0 10px 20px rgba(0, 0, 0, 0.08);
+    margin-top: 100px;
+    margin-left: 50%;
+  }
+  .signup-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #514f4f;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+  .form-signup {
+    margin-bottom: 30px;
+  }
+
+  .form-country {
+    margin-bottom: 30px;
+  }
+
+  .form-country label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: #514f4f;
+    font-weight: 549;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .form-country option {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .form-country select {
+    width: 90%;
+    padding: 10px 10px; /* Réduit le padding des champs à 10px 14px */
+    border: 1px solid #d2d6dc;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+  }
+  .form-country select:focus{
+    border-color: #c6c7c8;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(24, 143, 212, 0.25);
+  }
+  label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: #514f4f;
+    font-weight: 549;
+    margin-bottom: 6px;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  input {
+    width: 90%;
+    padding: 10px 10px; /* Réduit le padding des champs à 10px 14px */
+    border: 1px solid #d2d6dc;
+    border-radius: 4px;
+    font-size: 15px; /* Réduit la taille de la police des champs à 15px */
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+    input:focus{
+    border-color: #c6c7c8;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(24, 143, 212, 0.25);
+  }
+  
+  .password{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color : #1877f2;
+    margin-left: 40px;
+    font-size: 14px;
+    display: grid;
+    margin: 15px;
+  }
+  .password:hover{
+    color: black;
+    cursor: pointer;
+  }
+  .bouton {
+    width: 185%;
+   /*  background-color: #635bff; */ /* Modifier la couleur du bouton */
+    background-color : #1877f2;
+    color: white;
+    padding: 10px 10px; /* Ajuster le padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left:215px; /* Ajuster la marge gauche */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère */
+  }
+  .boutton:hover {
+    background-color: #4d48ff;
+  }
+  .create-account {
+    text-align: center;
+    font-size: 14px;
+    color: #4b5563;
+    margin-top: 30px;
+  }
+  .create-account .connect {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    /* color: #635bff; */
+    color : #1877f2;
+    font-size: 14px;
+    font-weight: 549;
+  }
+  .create-account .connect:hover{
+    color: black;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .Contenu {
+    margin-top: -38%;
+    margin-left: 10%;
+    font-weight: 550;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333c47; /* Gris foncé */
+  }
+  .left-design {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 6.5%;
+    margin-top: 20px;
+    width: 30%;
+  }
+  .left-design img {
+    width: 30%;
+    margin-left: 10px;
+    background-color: rgb(182, 217, 255);
+    border-radius: 12px;
+    border-color: rgb(182, 217, 255);
+  }
+  .left-design span{
+    color: rgb(45, 43, 43);
+    margin-left: -15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .left-side .contenu {
+    margin-left: 10%;
+    font-size: 12.5px;
+    margin-right: 55%;
+    margin-top: 7px;
+    color: #4B5563;
+  }

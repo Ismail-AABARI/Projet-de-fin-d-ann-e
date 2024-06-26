@@ -1,0 +1,30 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  
+  .navlinks1 {
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  .sidebar1 {
+    animation: fadeOut 0.5s ease-in-out forwards;
+  }
+  

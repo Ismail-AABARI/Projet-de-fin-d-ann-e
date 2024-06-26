@@ -1,0 +1,21 @@
+MontantTotalAchatsParClient = 
+SUMX(
+    SUMMARIZE(
+        TableCommandes,
+        TableCommandes[IdClient],
+        "MontantTotal", SUM(TableCommandes[MontantTotal])
+    ),
+    [MontantTotal]
+)
+
+
+MontantTotalAchatsParClient = 
+SUMX(
+    SUMMARIZE(
+        DataProjectJson,
+        DataProjectJson[IdCustomer],
+        "MontantTotal", SUM(DataProjectJson[TotalAmount])
+    ),
+    [MontantTotal]
+)
+

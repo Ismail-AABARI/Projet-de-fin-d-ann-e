@@ -1,0 +1,131 @@
+.signin-body-style {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('/src/assets/srtipe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-size: 230vh ;
+    background-attachment: fixed;
+    background-position: center top ;
+    margin: 0;
+    padding: 0;
+    animation: fade-in 0.8s ease-in-out;
+  }
+
+  .container-page{
+    width: 540px;
+    margin: 120px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(10, 10, 13, 0.11), 0 10px 20px rgba(0, 0, 0, 0.08);
+    margin-top: 150px;
+    background-color: #FFFFFF;
+  } 
+
+  .login-title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #514f4f;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+  .form-group {
+    margin-bottom: 30px; /* Maintain the existing margin for the form group */
+  }
+  .form-group label {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: #514f4f;
+    font-weight: 549;
+    margin-bottom: 6px; /* Réduit la marge inférieure à 6px */
+    font-size: 14px; /* Réduit la taille de la police des labels à 14px */
+    margin-left: 15px;
+  }
+  .form-group input {
+    width: 90%;
+    padding: 10px 10px; /* Réduit le padding des champs à 10px 14px */
+    border: 1px solid #d2d6dc;
+    border-radius: 4px;
+    font-size: 15px; /* Réduit la taille de la police des champs à 15px */
+    margin-left: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .form-group input:focus{
+      border-color: #c6c7c8;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(24, 143, 212, 0.25);
+  }
+   .form-group .password{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    /* color: #635bff; */
+    color : #1877f2;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 549;
+    display: grid;
+    margin: 15px;
+  }
+  .form-group .password:hover{
+    color: black;
+    cursor: pointer;
+  }
+  form .bouton {
+    width: 92%;
+    background-color : #1877f2;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left  : 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère */
+  }
+  form .bouton:hover {
+    cursor: pointer;
+    background-color: #635bff;
+  }
+  .create-account {
+    text-align: center;
+    font-size: 14px;
+    color: #4b5563;
+    margin-top: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .create-account .compte {
+    text-decoration: none;
+    /* color: #635bff; */
+    color : #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .create-account .compte:hover{
+    color: black;
+  }
+ /*  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(20%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+ */

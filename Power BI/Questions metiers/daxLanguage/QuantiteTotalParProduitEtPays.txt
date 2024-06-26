@@ -1,0 +1,22 @@
+QuantiteTotaleParProduitEtPays = 
+SUMX(
+    SUMMARIZE(
+        TableCommandes,
+        TableCommandes[IdProduit],
+        TableCommandes[Pays],
+        "QuantiteVendue", SUM(TableCommandes[Quantite])
+    ),
+    [QuantiteVendue]
+)
+
+
+QuantiteTotaleParProduitEtPays = 
+SUMX(
+    SUMMARIZE(
+        DataProjectJson,
+        DataProjectJson[IdProduct],
+        DataProjectJson[CountryCustomer],
+        "QuantiteVendue", SUM(DataProjectJson[Quantity])
+    ),
+    [QuantiteVendue]
+)

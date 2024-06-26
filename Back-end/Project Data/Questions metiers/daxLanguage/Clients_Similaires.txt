@@ -1,0 +1,15 @@
+Clients_Similaires = 
+VAR MontantTotal = SUM('NomDeVotreTable'[TotalAmount])
+RETURN
+IF(
+    MontantTotal > 0,   /* Assurez-vous que le montant total n'est pas nul */
+    CALCULATE(
+        COUNTROWS('NomDeVotreTable'),   /* Compte le nombre de lignes */
+        FILTER(
+            ALL('NomDeVotreTable'),
+            'NomDeVotreTable'[ProductName] = SELECTEDVALUE('NomDeVotreTable'[ProductName]) &&   /* Même produit acheté */
+            ABS(SUM('NomDeVotreTable'[TotalAmount]) - MontantTotal) < 100   /* Montant total dépensé similaire (par exemple, moins de 100 d'écart) */
+        )
+    ),
+    BLANK()   /* Retourne une valeur vide si le montant total est nul */
+)

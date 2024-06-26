@@ -1,0 +1,8 @@
+1.Quel est le chiffre d'affaires total de l'entreprise au cours de la période donnée ?
+2.Quels sont les pays ou régions où l'entreprise réalise le plus de ventes ?
+3.Quelle est la tendance des ventes de l'entreprise au fil du temps (croissance, stagnation, déclin) ?
+4.Quels sont les produits qui contribuent le plus au chiffre d'affaires global de l'entreprise ?
+5.Quelle est la rentabilité de l'entreprise, en tenant compte des coûts de production, des frais généraux et des ventes ?
+6.Quelle est la répartition des ventes par canal de distribution (en ligne, points de vente physiques, partenariats, etc.) et quel canal génère le plus de revenus ?
+7.Quelle est la satisfaction client globale de l'entreprise, mesurée par des indicateurs tels que les retours clients, les avis positifs/négatifs, et le taux de fidélisation ?
+8.Quels sont les principaux défis ou opportunités auxquels l'entreprise est confrontée en fonction des performances observées dans les données ?

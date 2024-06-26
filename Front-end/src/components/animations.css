@@ -1,0 +1,32 @@
+/* animations.css */
+
+  
+  
+.rotate-icon {
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* animations.css */
+
+@keyframes zoomInOut {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
+  .animated-button {
+    animation: zoomInOut 2s ease-in-out infinite;
+  }
+  

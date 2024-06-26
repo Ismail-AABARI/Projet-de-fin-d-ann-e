@@ -1,0 +1,172 @@
+.reset-body-style {
+    background: #f6f9fc;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('/src/assets/srtipe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-size: 230vh ;
+    background-attachment: fixed;
+    background-position: center top ;
+    margin: 0;
+    padding: 0;
+  }
+.reset-page{
+    width: 540px;
+    margin: 120px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(9, 9, 17, 0.11), 0 10px 20px rgba(0, 0, 0, 0.08);
+    margin-top: 180px;
+    animation: fade-in 0.7s ease-in-out;
+  }
+  .reset-title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #514f4f;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+  .form-reset {
+    margin-bottom: 30px; /* Maintain the existing margin for the form group */
+  }
+  .form-reset label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: #514f4f;
+    font-weight: 549;
+    margin-bottom: 6px; /* Réduit la marge inférieure à 6px */
+    font-size: 14px; /* Réduit la taille de la police des labels à 14px */
+    margin-left: 15px;
+  }
+  .form-reset input {
+    width: 90%;
+    padding: 10px 10px; /* Réduit le padding des champs à 10px 14px */
+    border: 1px solid #d2d6dc;
+    border-radius: 4px;
+    font-size: 15px; /* Réduit la taille de la police des champs à 15px */
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .buttom {
+    width: 90%;
+   /*  background-color: #635bff; */ /* Modifier la couleur du bouton */
+    background-color : #1877f2;
+    color: white;
+    padding: 10px 10px; /* Ajuster le padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left:16px; /* Ajuster la marge gauche */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère */
+    margin-top: -7px;
+  }
+  .buttom:hover {
+    background-color: #4d48ff;
+  }
+  .designer{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    margin-right: 30px;
+    color : #514f4f;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  .retour {
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    /* color: #635bff; */
+  }
+  .retour .linkage{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 13.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 549;   
+    color : #1877f2;
+  }
+  .retour{
+    color: black;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .bas-page {
+    margin-left: 32.5%;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+    color : #514f4f;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: -100px;
+  }
+  .bas-page .connect {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    /* color: #635bff; */
+    color : #1877f2;
+    font-size: 14px;
+    font-weight: 549;
+  }
+  .bas-page .connect:hover{
+    color: black;
+  }
+  .Content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 32%;
+    background-color: #e0e0e0;
+    width: 19%;
+    border-radius: 7px;
+  }
+  .Content img {
+    width: 40%;
+    margin-left: 9px;
+  }
+  .Content span {
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+    color : black;
+    font-weight: 400;
+    margin-left: -20px;
+  }
+
+  .paragraphe {
+    margin-left: 32%;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+    color : #514f4f;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-right: 30%;
+    margin-top: 10px;
+  }

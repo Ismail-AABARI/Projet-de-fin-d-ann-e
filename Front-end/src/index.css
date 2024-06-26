@@ -1,0 +1,349 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.text-gradient {
+    background-image: linear-gradient(to right, #3490dc, #38a169);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-black-gradient-2 {
+    background: linear-gradient(
+      -168.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #302f2f 91.61%
+    );
+  }
+
+  @layer base{
+    body{
+      background-color: #14161b;
+    }
+  }
+
+  .slick-slide > div{
+    margin: 0 20px;
+  }
+
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-left {
+    animation: slideInFromLeft 0.5s ease-out;
+  }
+  
+  .animate-right {
+    animation: slideInFromRight 0.5s ease-out;
+  }
+
+  .title-color{
+    color: #514f4f;
+  }
+
+  .buttons-color{
+    background: #1877f2;
+  }
+
+  #rooot{
+    background-color: white;
+  }
+
+  #home {
+    background-color: #2a6bc6;
+  }
+
+  .title-colores {
+    color: #ffffff;
+  } 
+  
+  .container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .triangle {
+    clip-path: polygon(0 0, 370% 0, 0 100%);
+    position: relative;
+  }
+
+  .div-top {
+    margin-top: -4%;
+  }
+  /* styles.css */
+
+.active {
+  font-weight: bold;
+  color: #FF5733; /* Choisissez une couleur qui se démarque */
+}
+
+  .images {
+    position: relative;
+    width: 30%;
+    margin-top: -30px;
+    margin-left: -25%;
+  }
+  .login{
+    background: linear-gradient(135deg, #328dca,#faf8fb);
+    color: rgb(59, 58, 58);
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  .images-card {
+    margin-top: -20%;
+    margin-left: -17%;
+    height: 100%;
+    width: 100%;
+/*     box-shadow: -30px 25px 30px rgb(207, 200, 200); */
+/*     color: #9b5db6; */
+  }
+
+  .images-cards {
+    margin-top: -25%;
+    margin-left: -25%;
+    height: 130%;
+    width: 80%;
+    /* box-shadow: -30px 25px 30px rgb(207, 200, 200); */
+/*     color: #9b5db6; */
+    /* border-radius: 40%; */
+  }
+
+  .image-card{
+    margin-top: -20%;
+    margin-left: -17%;
+    height: 100%;
+    width: 100%;
+    box-shadow: -30px 25px 30px rgb(207, 200, 200);
+/*     color: #9b5db6; */
+    border-radius: 100%;
+  }
+  .designer {
+    margin-top: 1%;
+    height: 10%;
+  }
+  
+  .business-design {
+/*     border: 1px solid gray; */
+    margin-left: 50px;
+    margin-top: 1%;
+  }
+  .card-right{
+/*     border: 1px solid gray; */
+    margin-left: -11%;
+    margin-top: 3%;
+  }
+  .title{
+    margin-top: 2%;
+    margin-left: -2%;
+  }
+  .content {
+/*     border: 1px solid gray; */
+    padding: 17px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .paragraph{
+/*     border: 1px solid gray; */
+    margin-top: -0.5%;
+    margin-left: -2%;
+  }
+
+  .image-product{
+    margin-left: -5%;
+    margin-top: 6%;
+  }
+
+  .context-product{
+    margin-top: -1%;
+    margin-left: 30px;
+  }
+
+  .state{
+    margin-left: -7%;
+  }
+
+  .context-cardDeeal{
+    margin-top: -7%;
+    margin-left: 3%;
+  }
+
+  .images-cardDeeal{
+    margin-top: -5%;
+    margin-left: -10%;
+    height: 50%;
+  }
+  .footer{
+    margin-top: -7%;
+  }
+  .clients-pov{
+    margin-top: -15%;
+  }
+
+  .CTA{
+    margin-top: 2%;
+  }
+
+  .card{
+    margin-left: 55%;
+    margin-top: -32%;
+    width: 40%;
+  }
+  .context-cards {
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+
+  .commande {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #4bb4ff , #b3d9f5) ;
+    background-clip: text; /* Propriété standard */
+  -webkit-background-clip: text; /* Préfixe pour WebKit */
+  color: transparent; /* Texte transparent pour montrer le dégradé */
+  }
+  /******************************************** Animation GetStarted ********************************/
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 65px;
+    /* background-color: #003b95; */
+    margin-left: 1%;
+  }
+  .nav:hover{
+   /*  transform: translateY(-5px); */
+   box-shadow: 10px 10px 40px rgb(207, 200, 200);
+  }
+
+  .navlinks{
+    margin-left: -5%;
+  }
+  .newlogo{
+    width: 20%;
+    height: 10%;
+  }
+  /* .animated-button {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .rotate-icon {
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.text-gradient {
+    background-image: linear-gradient(to right, #3490dc, #38a169);
+    background-clip: text;
+    color: transparent;
+}
+
+.bg-black-gradient-2 {
+    background: linear-gradient(
+        -168.39deg,
+        #ffffff -278.56%,
+        #6d6d6d -78.47%,
+        #302f2f 91.61%
+    );
+}
+
+@layer base {
+    body {
+        background-color: #14161b;
+    }
+}
+
+.slick-slide > div {
+    margin: 0 20px;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-left {
+    animation: slideInFromLeft 0.5s ease-out;
+}
+
+.animate-right {
+    animation: slideInFromRight 0.5s ease-out;
+}
+
+.title-color {
+    color: #514f4f;
+}
+
+.buttons-color {
+    background: #1877f2;
+}
+
+#rooot {
+    background-color: white;
+}
+
+#hero-Nav {
+    background: linear-gradient(to bottom right, #2a6bc6, #3490dc, #3490dc);
+     background: linear-gradient(+68deg, #7f3bbf, #3e9fff,#994fdf);
+}
+
+.title-colores {
+    color: #ffffff;
+}  */

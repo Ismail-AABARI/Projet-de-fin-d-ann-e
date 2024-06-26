@@ -1,0 +1,8 @@
+1.Quelle est la répartition des clients par pays ou région ?
+2.Quels sont les clients qui ont passé le plus de commandes au cours de la période donnée ?
+3.Quels sont les clients ayant réalisé les achats les plus importants en termes de montant total ?
+4.Quels sont les produits les plus populaires auprès des clients dans chaque pays ou région ?
+5.Quelle est la tendance des achats des clients au fil du temps, par exemple par trimestre ou par année ?
+6.Y a-t-il des clients ayant des caractéristiques similaires (par exemple, même produit acheté, montant total dépensé similaire) qui pourraient former un segment de marché spécifique ?
+7.Quels sont les clients ayant effectué des achats récemment et qui pourraient nécessiter un suivi ou une offre promotionnelle ?
+8.Quels sont les clients ayant annulé des commandes ou rencontré des problèmes avec leurs achats ?

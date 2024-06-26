@@ -1,0 +1,8 @@
+1.Quels sont les produits les plus vendus en termes de quantité et de montant total ?
+2.Quel est le chiffre d'affaires généré par chaque produit au cours de la période donnée ?
+3.Quels sont les produits qui ont connu une augmentation ou une diminution significative des ventes au fil du temps ?
+4.Quels sont les produits qui ont la meilleure marge bénéficiaire ?
+5Quelle est la répartition des ventes de chaque produit par pays ou région ?
+6.Y a-t-il des produits qui sont souvent achetés ensemble (par exemple, ensembles de produits complémentaires) ?
+7.Quels sont les produits qui ont été vendus avec des remises importantes et quel impact cela a-t-il eu sur les ventes et la rentabilité ?
+8.Quels sont les nouveaux produits introduits au cours de la période et comment se sont-ils comportés sur le marché par rapport aux produits existants ?
